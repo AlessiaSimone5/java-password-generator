@@ -33,6 +33,8 @@ public class PasswordGenerator {
 		System.out.println("type your birthday year");
 		annoNascita = scanner.nextShort();
 		
+		scanner.close();
+		
 		int dataNascita = meseNascita + giornoNascita + annoNascita;				
 		String password = nome + "-" + cognome + "-" + colorePrefe + "-" + dataNascita ;
 System.out.println(password);
